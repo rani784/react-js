@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
 }
@@ -13,4 +13,29 @@ h1 {
 
 h3 {
   color: darkgreen;
+} */
+
+.user-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+ 
+.user-card {
+    width: 280px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+ 
+.user-card h2 {
+    color: blue;
+    margin-bottom: 15px;
+}
+ 
+.user-card p {
+    margin: 10px 0;
 }
