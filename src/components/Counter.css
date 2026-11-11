@@ -1,0 +1,131 @@
+
+/* Main container */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+/* Light theme */
+
+.light {
+  background-color: #f1f5f9;
+  color: black;
+}
+
+/* Dark theme */
+
+.dark {
+  background-color: #111827;
+  color: white;
+}
+
+/* Counter card */
+
+.counter-card {
+  width: 100%;
+  max-width: 450px;
+  padding: 35px 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.light .counter-card {
+  background-color: white;
+  color: black;
+}
+
+.dark .counter-card {
+  background-color: #1f2937;
+  color: white;
+}
+
+/* Theme text */
+
+.theme-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Counter value */
+
+.count {
+  font-size: 65px;
+  margin: 20px 0;
+}
+
+/* Buttons */
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+/* Individual buttons */
+
+.theme-btn {
+  background-color: #64748b;
+  color: white;
+}
+
+.increment {
+  background-color: #16a34a;
+  color: white;
+}
+
+.decrement {
+  background-color: #dc2626;
+  color: white;
+}
+
+.reset {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Responsive design */
+
+@media (max-width: 480px) {
+  .counter-card {
+    padding: 25px 15px;
+  }
+
+  .count {
+    font-size: 50px;
+  }
+
+  .button-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
