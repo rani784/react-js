@@ -164,17 +164,20 @@
 // export default App;
 
 
-import React from "react";
-import RegistrationForm from "./src/components/Regestrationfrom.jsx";
+// import React from "react";
+// import RegistrationForm from "./src/components/Regestrationfrom.jsx";
 
-function App() {
-  return (
-    <>
-      <RegistrationForm />
-    </>
-  );
-}
+// function App() {
+//   return (
+//     <>
+//       <RegistrationForm />
+//     </>
+//   );
+// }
 
-export default App;
+// export default App;
+
+
+
 
 
